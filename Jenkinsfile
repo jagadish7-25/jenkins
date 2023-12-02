@@ -27,15 +27,11 @@ pipeline {
                 echo 'Hello World'
             }
         }
-       stage('release') {
+       stage('security') {
           steps {
               echo 'Hello World'
           }
        }
-       stage('update_version') {
-          steps {
-              echo 'Hello World'
-          }
-       }
+
     }
 }
