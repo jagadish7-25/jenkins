@@ -32,7 +32,7 @@ pipeline {
               echo 'Hello World'
           }
        }
-       stage('release') {
+       stage('update_version') {
                  steps {
                      echo 'Hello World'
                  }
