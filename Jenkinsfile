@@ -33,9 +33,9 @@ pipeline {
           }
        }
        stage('update_version') {
-                 steps {
-                     echo 'Hello World'
-                 }
-              }
+          steps {
+              echo 'Hello World'
+          }
+       }
     }
 }
