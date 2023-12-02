@@ -1,0 +1,22 @@
+Index: Jenkinsfile
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>pipeline {\r\n    agent any\r\n\r\n    stages {\r\n        stage('code') {\r\n            steps {\r\n                echo 'Hello World'\r\n            }\r\n        }\r\n         stage('compile') {\r\n            steps {\r\n                echo 'Hello World'\r\n            }\r\n        }\r\n         stage('test') {\r\n            steps {\r\n                echo 'Hello World'\r\n            }\r\n        }\r\n         stage('code quality') {\r\n            steps {\r\n                echo 'Hello World'\r\n            }\r\n        }\r\n         stage('release') {\r\n            steps {\r\n                echo 'Hello World'\r\n            }\r\n        }\r\n       stage('release') {\r\n          steps {\r\n              echo 'Hello World'\r\n          }\r\n       }\r\n    }\r\n}\r\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/Jenkinsfile b/Jenkinsfile
+--- a/Jenkinsfile	
++++ b/Jenkinsfile	
+@@ -27,10 +27,6 @@
+                 echo 'Hello World'
+             }
+         }
+-       stage('release') {
+-          steps {
+-              echo 'Hello World'
+-          }
+-       }
++      
+     }
+ }
