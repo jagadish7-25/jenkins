@@ -27,5 +27,11 @@ pipeline {
                 echo 'Hello World'
             }
         }
+       stage('security') {
+          steps {
+              echo 'Hello World'
+          }
+       }
+
     }
 }
